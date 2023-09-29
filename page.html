@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+</head>
+<body>
+    <form action="">
+        <h1>Login Here</h1>
+        <label for="fname">First Name<sup>*</sup>:</label>
+        <input id="fname" type="text" name="first_name" required>
+        <label for="lname">Last Name:</label>
+        <input id="lname" type="text" name="last_name">
+        <br>
+        <br>
+        <label for="email">Email<sup>*</sup>:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email here" required>
+        <br>
+        <br>
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" name="DOB" id="dob">
+        <br>
+        <br>
+        <label for="pswd">Password<sup>*</sup>:</label>
+        <input type="password" name="Password" id="pswd" required>
+        <br>
+        <br>
+        <p>Select Gender:</p>
+        <label for="male">Male:</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">Female:</label>
+        <input type="radio" name="gender" id="female">
+        <label for="other">Other:</label>
+        <input type="radio" name="gender" id="other">
+        <br><br>
+        <label for="category">Profession:</label>
+        <select name="Category" id="category">
+        <option value="Student">Student</option>
+        <option value="Employee">Employee</option>
+        <option value="Other">Other</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Log In">
+    </form>
+</body>
+</html>
